@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="249.0" prefWidth="505.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="triefx.FXMLController">
+  <children>
+    <Button fx:id="btnAutocompletar" layoutX="48.0" layoutY="147.0" mnemonicParsing="false" onAction="#autocompletar" prefWidth="191.0" text="Autocompletar" />
+    <TextField fx:id="edtPrefixo" layoutX="46.0" layoutY="110.0" prefWidth="200.0" />
+    <TextField fx:id="edtPath" disable="true" focusTraversable="true" layoutX="46.0" layoutY="71.0" prefWidth="200.0" text="palavras.txt" />
+    <TextField fx:id="edtQtd" layoutX="46.0" layoutY="33.0" prefWidth="63.0" />
+    <ListView fx:id="listResultados" layoutX="280.0" layoutY="31.0" prefHeight="200.0" prefWidth="200.0" />
+    <Label layoutX="48.0" layoutY="18.0" text="Quantidade" />
+    <Label disable="false" layoutX="47.0" layoutY="55.0" text="Caminho do Arquivo" />
+    <Label layoutX="48.0" layoutY="97.0" text="Prefixo" />
+    <Label layoutX="280.0" layoutY="14.0" text="Possíveis Resultados" />
+  </children>
+</AnchorPane>
